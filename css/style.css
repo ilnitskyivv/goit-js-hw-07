@@ -1,0 +1,24 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+li {
+  display: block;
+  margin-bottom: 30px;
+}
+
+li:first-child {
+  margin-top: 0;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.image {
+  height: 375px;
+  width: 630px;
+  background-color: white;
+}
