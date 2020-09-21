@@ -10,7 +10,6 @@ function onIncrementClick(event) {
   counterValue += 1;
   valueEl.textContent = counterValue;
 }
-onIncrementClick();
 
 function onDecrementClick(event) {
   counterValue -= 1;
